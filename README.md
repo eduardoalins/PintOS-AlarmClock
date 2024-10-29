@@ -7,7 +7,8 @@ This project enhances PintOS by replacing busy wait loops with an alarm clock me
 ### Modified Files and Functions
 - **`threads/thread.c`**:
   - **Functions**:
-    - `thread_init()` 
+    - `void thread_add_sleep(int64_t time)`
+    - `void thread_add_sleep(int64_t time)` 
 - **`devices/timer.c`**:
   - **Functions**:
     - `timer_sleep()`
